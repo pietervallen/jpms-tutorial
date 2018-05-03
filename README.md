@@ -1,7 +1,5 @@
 # jdk9-jigsaw
 
-Ver la [versión en Español](es/README.md) (See [Spanish version](es/README.md))
-
 Examples of some of the features of Jigsaw released in the Early Access build of JDK9.
 
 Many of the examples here are directly from the Project Jigsaw: Module System Quick-Start Guide, see [http://openjdk.java.net/projects/jigsaw/quick-start](http://openjdk.java.net/projects/jigsaw/quick-start) but we have also contributions from the Java community.
@@ -127,5 +125,3 @@ See [License](LICENSE) document to find out about the licensing terms and condit
 - [Adopt OpenJDK: Getting Started Kit](http://bit.ly/1NUkPWw)
 
 ---
-
-![I need you for Java SE 9 development](I-need-you-for-Java-SE-9-development.png "I need you for Java SE 9 development")
