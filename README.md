@@ -1,6 +1,6 @@
-# jdk9-jigsaw
+# JPMS-jigsaw
 
-Examples of some of the features of Jigsaw released in the Early Access build of JDK9.
+Examples of some of the features of JPMS / Jigsaw 
 
 Many of the examples here are directly from the Project Jigsaw: Module System Quick-Start Guide, see [http://openjdk.java.net/projects/jigsaw/quick-start](http://openjdk.java.net/projects/jigsaw/quick-start) but we have also contributions from the Java community.
 
@@ -24,38 +24,6 @@ See [Download, install and verify JDK](setupAndVerifyJDK.md) and return to this 
 #### Download and install the `tree` and `wget` command
 
 See [Download and install tree and wget](setupTreeAndWget.md) and return to this page to continue with the rest of the steps.
-
-#### Vagrant box
-
-- Alternatively a Vagrant box is available at https://github.com/ali-ince/LJC_April2017_Hackday, please make use of this facility (thanks @ali-ince).
-
-#### (Optional) Install JDK 9 compliant IDE
-
-- Install the latest IDE (IntelliJ, Eclipse, NetBeans - paid or community version) that supports JDK 9 EA, once installed configure the IDE to pickup the JDK 9 EA installed in the previous steps.
-
-See [Download, install and configure Eclipse Oxygen for JDK9](setupEclipseOxygen.md).
-
-#### Other preparations
-
-- Get familiar with the command-line a bit as we will be using much of it during the weekend
-
-- Prepare your VMs or cloud instances with the above, in case your local machine is not up for any installation or configurations 
-
-**Note:** the bash files provided should work on Linux and in theory on the MacOS as well.
-
-##### Windows users
-
- - if you use `git-bash` (recommended) or `cgywin` should work for you - run the `.sh` scripts in one of the the environments. In the worst case scenario, we would have to manually convert the `.sh` files into `.bat`, with minor tweaks should also work there. Happy to receive a pull request for it. Or you could use **bach**, a platform independent Java Shell Builder. It's usage is explained in `session-3-jshell`.
- - check if the literal JDK path (or `%JAVA_HOME%`) has been added to the `PATH` environment variable or add it manually
- - ensure the JDK is installed in a folder where the name does not have a space in it 
- - in case folder name looks something `C:\Program files...`, ensure that (name does not contain spaces):
-    - the path to the JDK in `JAVA_HOME` has `C:\Program~1` instead of `C:\Program files...`
-    - the environment variable `PATH` refers to the `JAVA_HOME` environment variable
-    - the environment variable `CLASSPATH` refers to the `JAVA_HOME` environment variable
- - in some instances `jlink` was not yet available when JDK is installed via the `.exe` file, even after the above path settings were applied (please verify beforehand)
-
-##### MacOSX users
- - `jlink` is not yet available when JDK is installed via the `.dmg` file (please verify beforehand)
 
 ## Exercises / examples covered
 
