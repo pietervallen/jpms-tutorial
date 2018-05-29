@@ -1,3 +1,4 @@
+cd ..
 ### The Linker (jlink) example
 
 Another one of the new tools that Jigsaw brings is 'jlink' which is a tool to produce custom run-time images, a single artefact containing both Java and the modules being run.
